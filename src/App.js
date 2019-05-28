@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
-
 import routes from './router/router.config'
 
 function RouteWithSubRoutes(route) {
@@ -17,11 +16,11 @@ function RouteWithSubRoutes(route) {
 class App extends Component {
   render() {
     return (
-        <BrowserRouter>
-          <Switch>
-            {routes.map((route,i)=>(<RouteWithSubRoutes key={i} {...route} />))}
-          </Switch>
-        </BrowserRouter>
+      <BrowserRouter>
+        <Switch>
+          {routes.map((route,i)=>(<RouteWithSubRoutes key={i} {...route} />))}
+        </Switch>
+      </BrowserRouter>
     );
   }
 }
