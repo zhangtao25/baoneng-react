@@ -1,17 +1,15 @@
-import Main from './../layouts/Main';
-import Page1 from './../view/Page1';
+import Discovery from './../view/Discovery';
+import Explore from './../view/Explore'
 
 const routes = [
-    {
-        path: "/Main",
-        component: Main,
-        routes: [
-            {
-                path: "/Main/Page1",
-                component: Page1
-            },
-        ]
-    }
+  {
+    path: "/Discovery",
+    component: Discovery
+  },
+  {
+    path: "/Explore",
+    component: Explore
+  }
 ];
 
 export default routes

@@ -1,0 +1,32 @@
+.margin{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  font-size: 16px;
+}
+.app-header ol, ul, dl{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.logo{
+  width: 38px;
+  height: 38px;
+}
+nav>ul{
+  display: flex;
+}
+nav>ul>li{
+  width: 68px;
+  line-height: 60px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.add{
+  margin-left: 20px;
+}
+.menu{
+  margin-left: 20px;
+}
